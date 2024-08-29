@@ -24,6 +24,23 @@ Implementing Cryptography using Neural Networks through tuning and implementatio
 ## How to Use
 Run on Jupyter Notebook enivronment 
 
+## Results
+
+### Cryptography Timing
+#### NCA
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/1b72a369-2a62-4fec-9d74-b1d05664791d">
+
+#### SHA256
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/3896cc90-b6f8-4cac-be59-d05feb1b3cb7">
+
+
+### Signing and Verification Timing
+#### NCA
+<img width="545" alt="image" src="https://github.com/user-attachments/assets/d69dbd77-4b9c-4af1-bfe1-84d7900ff7e5">
+
+#### SHA256
+<img width="595" alt="image" src="https://github.com/user-attachments/assets/31444646-52d5-4671-aa08-830a68208c94">
+
 ## References
 1. Adversarial Neural Cryptography in Theano -  [Link](https://nlml.github.io/neural-networks/adversarialneural-cryptography/)
 2. Alexander KlimovAnton MityaginAdi Shamir, ***Analysis of Neural Cryptography***, 2016
