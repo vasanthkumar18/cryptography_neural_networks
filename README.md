@@ -38,7 +38,15 @@ Run on Jupyter Notebook enivronment
 <img width="545" alt="image" src="https://github.com/user-attachments/assets/d69dbd77-4b9c-4af1-bfe1-84d7900ff7e5">
 
 #### SHA256
-<img width="595" alt="image" src="https://github.com/user-attachments/assets/31444646-52d5-4671-aa08-830a68208c94">
+<img width="537" alt="image" src="https://github.com/user-attachments/assets/1f079059-484c-46d6-865a-9dcb18752719">
+
+
+## Conclusion 
+
+### Cryptography
+I've shown that it's possible to achieve low error rates with neural networks, even though CNNs can be inconsistent. I simulated communication between "Alice" and "Bob" using sockets to demonstrate how CNNs could work in real-world scenarios on a TCP/IP network.
+### Signature Verification 
+In this notebook, I demonstrated how neural networks can create digital signatures that ensure data integrity and authenticity, similar to SHA256. Future work includes extending the socket implementation to work over the Internet, instead of just on localhost. Other goals involve adding an "Eve" component to the crypto process, allowing for signatures to be transmitted with the plaintext. It would also be interesting to see if "Eve" could generate a signature that matches those created by "Bob" and "Alice" using a hidden layer in the network.
 
 ## References
 1. Adversarial Neural Cryptography in Theano -  [Link](https://nlml.github.io/neural-networks/adversarialneural-cryptography/)
